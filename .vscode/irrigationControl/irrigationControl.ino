@@ -1,6 +1,9 @@
 #include <DS18B20.h>
 
 const int hydrometer = A0;
+const int fowardPin = 12;
+const int speedMotorPin = 11;
+
 int value;
 int humidity;
 
@@ -8,13 +11,22 @@ DS18B20 temperatureSensor(2);
 
 void setup()
 {
-	Serial.begin(9600);
+	pinMode(fowardPin,OUTPUT);
+  digitalWrite(fowardPin,HIGH);
+  Serial.begin(9600);
 }
 
 void loop()
 {
 	getTemperature();
   humidity = getHumidity();
+
+  if(humidity == 0){
+    waterPlants(100);
+  }
+  else{
+    waterPlants(50);
+  }
 
   delay(2000);
 }
@@ -35,4 +47,11 @@ int getHumidity(){
   Serial.print("Soil humidity (%): ");
   Serial.println(value);
   return value;
+}
+
+void waterPlants(int speed){
+  speed = map(speed,0,100,0,255);
+  analogWrite(speedMotorPin,speed);
+  Serial.print("Speed (%): ");
+  Serial.println(speed);
 }
