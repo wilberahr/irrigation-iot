@@ -1,6 +1,6 @@
 #include <DS18B20.h>
 
-DS18B20 ds(2);
+DS18B20 temperatureSensor(2);
 
 void setup()
 {
@@ -13,9 +13,9 @@ void loop()
 }
 
 void getTemperature(){
-  while (ds.selectNext()) {
+  while (temperatureSensor.selectNext()) {
     Serial.print("Temperature (celsius): ");
-    Serial.println(ds.getTempC());
+    Serial.println(temperatureSensor.getTempC());
   }
 
 }
