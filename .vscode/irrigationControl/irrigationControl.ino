@@ -1,5 +1,9 @@
 #include <DS18B20.h>
 
+const int hydrometer = A0;
+int value;
+int humidity;
+
 DS18B20 temperatureSensor(2);
 
 void setup()
@@ -10,6 +14,7 @@ void setup()
 void loop()
 {
 	getTemperature();
+  humidity = getHumidity();
 }
 
 void getTemperature(){
@@ -18,4 +23,14 @@ void getTemperature(){
     Serial.println(temperatureSensor.getTempC());
   }
 
+}
+
+int getHumidity(){
+
+  value = analogRead(hydrometer);
+  value = constrain(value,400,1023);
+  value = map(value,400,1023,100,0);
+  Serial.print("Soil humidity (%): ");
+  Serial.println(value);
+  return value;
 }
