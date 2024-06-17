@@ -15,6 +15,8 @@ void loop()
 {
 	getTemperature();
   humidity = getHumidity();
+
+  delay(2000);
 }
 
 void getTemperature(){
