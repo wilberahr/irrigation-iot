@@ -6,6 +6,7 @@ const int speedMotorPin = 11;
 
 int value;
 int humidity;
+float temperature;
 
 DS18B20 temperatureSensor(2);
 
@@ -18,25 +19,34 @@ void setup()
 
 void loop()
 {
-	getTemperature();
+  temperature = getTemperature();
   humidity = getHumidity();
-
-  if(humidity == 0){
+  if(humidity == 0 && temperature < 30){
     waterPlants(100);
   }
   else{
-    waterPlants(50);
+    if(humidity == 1 && temperature < 30)
+      else{
+        waterPlants(0);
+      }
+    )else {
+      if (temperature >=30){
+         waterPlants(0)
+      }else{
+        waterPlants(0)
+      }
+    }  
   }
 
   delay(2000);
 }
 
-void getTemperature(){
+float getTemperature(){
   while (temperatureSensor.selectNext()) {
     Serial.print("Temperature (celsius): ");
     Serial.println(temperatureSensor.getTempC());
   }
-
+  return temperatureSensor.getTempC();
 }
 
 int getHumidity(){

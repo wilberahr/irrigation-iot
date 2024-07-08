@@ -119,11 +119,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\USBCore.cpp",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\CDC.cpp",
    "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\USBCore.cpp.o"
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\CDC.cpp.o"
   ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\USBCore.cpp"
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\CDC.cpp"
  },
  {
   "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
@@ -149,11 +149,41 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\PluggableUSB.cpp",
    "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\Tone.cpp.o"
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\PluggableUSB.cpp.o"
   ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp"
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\PluggableUSB.cpp"
+ },
+ {
+  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
+  "arguments": [
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
+   "-MMD",
+   "-flto",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial0.cpp",
+   "-o",
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\HardwareSerial0.cpp.o"
+  ],
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial0.cpp"
  },
  {
   "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
@@ -239,11 +269,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial.cpp",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial1.cpp",
    "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\HardwareSerial.cpp.o"
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\HardwareSerial1.cpp.o"
   ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial.cpp"
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial1.cpp"
  },
  {
   "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
@@ -269,11 +299,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\USBCore.cpp",
    "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\Stream.cpp.o"
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\USBCore.cpp.o"
   ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp"
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\USBCore.cpp"
  },
  {
   "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
@@ -299,71 +329,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial0.cpp",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp",
    "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\HardwareSerial0.cpp.o"
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\Tone.cpp.o"
   ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial0.cpp"
- },
- {
-  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
-  "arguments": [
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu++11",
-   "-fpermissive",
-   "-fno-exceptions",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-fno-threadsafe-statics",
-   "-Wno-error=narrowing",
-   "-MMD",
-   "-flto",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Print.cpp",
-   "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\Print.cpp.o"
-  ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Print.cpp"
- },
- {
-  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
-  "arguments": [
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu++11",
-   "-fpermissive",
-   "-fno-exceptions",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-fno-threadsafe-statics",
-   "-Wno-error=narrowing",
-   "-MMD",
-   "-flto",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\PluggableUSB.cpp",
-   "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\PluggableUSB.cpp.o"
-  ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\PluggableUSB.cpp"
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp"
  },
  {
   "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
@@ -419,11 +389,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial1.cpp",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Print.cpp",
    "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\HardwareSerial1.cpp.o"
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\Print.cpp.o"
   ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial1.cpp"
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Print.cpp"
  },
  {
   "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
@@ -449,11 +419,229 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\CDC.cpp",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp",
    "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\CDC.cpp.o"
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\Stream.cpp.o"
   ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\CDC.cpp"
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp"
+ },
+ {
+  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
+  "arguments": [
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
+   "-MMD",
+   "-flto",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial.cpp",
+   "-o",
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\HardwareSerial.cpp.o"
+  ],
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial.cpp"
+ },
+ {
+  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
+  "arguments": [
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "-c",
+   "-g",
+   "-x",
+   "assembler-with-cpp",
+   "-flto",
+   "-MMD",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.S",
+   "-o",
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\wiring_pulse.S.o"
+  ],
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.S"
+ },
+ {
+  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
+  "arguments": [
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
+   "-MMD",
+   "-flto",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WString.cpp",
+   "-o",
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\WString.cpp.o"
+  ],
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WString.cpp"
+ },
+ {
+  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
+  "arguments": [
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu11",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-MMD",
+   "-flto",
+   "-fno-fat-lto-objects",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_analog.c",
+   "-o",
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\wiring_analog.c.o"
+  ],
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_analog.c"
+ },
+ {
+  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
+  "arguments": [
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu11",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-MMD",
+   "-flto",
+   "-fno-fat-lto-objects",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WInterrupts.c",
+   "-o",
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\WInterrupts.c.o"
+  ],
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WInterrupts.c"
+ },
+ {
+  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
+  "arguments": [
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu11",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-MMD",
+   "-flto",
+   "-fno-fat-lto-objects",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_digital.c",
+   "-o",
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\wiring_digital.c.o"
+  ],
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_digital.c"
+ },
+ {
+  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
+  "arguments": [
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu11",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-MMD",
+   "-flto",
+   "-fno-fat-lto-objects",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring.c",
+   "-o",
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\wiring.c.o"
+  ],
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring.c"
+ },
+ {
+  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
+  "arguments": [
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu11",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-MMD",
+   "-flto",
+   "-fno-fat-lto-objects",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.c",
+   "-o",
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\wiring_pulse.c.o"
+  ],
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.c"
  },
  {
   "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
@@ -509,11 +697,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WString.cpp",
+   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\abi.cpp",
    "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\WString.cpp.o"
+   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\abi.cpp.o"
   ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WString.cpp"
+  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\abi.cpp"
  },
  {
   "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
@@ -541,33 +729,6 @@
    "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\hooks.c.o"
   ],
   "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\hooks.c"
- },
- {
-  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
-  "arguments": [
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu11",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-MMD",
-   "-flto",
-   "-fno-fat-lto-objects",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring.c",
-   "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\wiring.c.o"
-  ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring.c"
  },
  {
   "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
@@ -623,172 +784,11 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\abi.cpp",
-   "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\abi.cpp.o"
-  ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\abi.cpp"
- },
- {
-  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
-  "arguments": [
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu11",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-MMD",
-   "-flto",
-   "-fno-fat-lto-objects",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_analog.c",
-   "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\wiring_analog.c.o"
-  ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_analog.c"
- },
- {
-  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
-  "arguments": [
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu11",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-MMD",
-   "-flto",
-   "-fno-fat-lto-objects",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_digital.c",
-   "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\wiring_digital.c.o"
-  ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_digital.c"
- },
- {
-  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
-  "arguments": [
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu++11",
-   "-fpermissive",
-   "-fno-exceptions",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-fno-threadsafe-statics",
-   "-Wno-error=narrowing",
-   "-MMD",
-   "-flto",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
    "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp",
    "-o",
    "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\main.cpp.o"
   ],
   "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp"
- },
- {
-  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
-  "arguments": [
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
-   "-c",
-   "-g",
-   "-x",
-   "assembler-with-cpp",
-   "-flto",
-   "-MMD",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.S",
-   "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\wiring_pulse.S.o"
-  ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.S"
- },
- {
-  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
-  "arguments": [
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu11",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-MMD",
-   "-flto",
-   "-fno-fat-lto-objects",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.c",
-   "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\wiring_pulse.c.o"
-  ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.c"
- },
- {
-  "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
-  "arguments": [
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu11",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-MMD",
-   "-flto",
-   "-fno-fat-lto-objects",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-IC:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WInterrupts.c",
-   "-o",
-   "G:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot\\build\\core\\WInterrupts.c.o"
-  ],
-  "file": "C:\\Users\\wilbe\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WInterrupts.c"
  },
  {
   "directory": "g:\\My Drive\\Courses\\UCR\\IE0624 Laboratorio de microcontroladores\\Proyecto\\irrigation-iot",
