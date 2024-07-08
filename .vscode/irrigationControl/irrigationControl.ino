@@ -25,15 +25,14 @@ void loop()
     waterPlants(100);
   }
   else{
-    if(humidity == 1 && temperature < 30)
-      else{
+    if(humidity == 1 && temperature < 30){
         waterPlants(0);
       }
-    )else {
+      else{
       if (temperature >=30){
-         waterPlants(0)
+         waterPlants(0);
       }else{
-        waterPlants(0)
+        waterPlants(0);
       }
     }  
   }
